@@ -1,0 +1,143 @@
+html{
+  scroll-behavior: smooth;
+  }
+.subimage{
+  height: 300px;
+  border-radius: 100%;
+  position: relative;
+  z-index: -1;
+
+
+
+}
+.imagebg{
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+
+
+.container-fluid{
+  padding: 0 0;}
+
+.content-details{
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+h1{
+  font-family: 'Antic Didone', serif;
+  font-weight: 900;
+  font-size: 2rem;
+
+}
+
+a{
+  color:#66BFBF;
+  font-style: normal;
+  font-weight: 600;
+}
+a:hover{
+  color: #055052;
+  text-decoration: none;
+}
+.research-link{
+  color:#EAF6F6;
+}
+.navbar{
+  padding: 0 ;
+  background-color: #53B8BB;
+  position: fixed; /* Make it stick/fixed */
+top: 0; /* Stay on top */
+width: 100%; /* Full width */
+transition: top 0.3s; /* Transition effect when sliding down (and up) */
+z-index:1;
+}
+.navbar-brand{
+  padding: 10px 20px;
+
+}
+
+.nav-item{
+  padding: 0 20px;
+  font-weight: bold;
+
+}
+
+.navbar-nav{
+    padding: 20px 0;
+
+}
+
+
+.footer-link{
+  margin : 20px 20px;
+  font-size: 1.25rem;
+}
+
+body{
+  background-color: #EAF6F6;
+}
+
+.bottom-container{
+  margin-bottom: 0;
+}
+
+#title{
+  padding: 7% 15% 7% 8%;
+  margin-top: 3rem;
+    color: #66BFBF;
+
+}
+#CV{
+  padding:  7% 15%;
+  background-color: #66BFBF;
+  color: #EAF6F6;
+
+}
+#Research{
+  padding:  7% 15%;
+  background-color: #66BFBF;
+    color: #EAF6F6;
+
+}
+
+#Conferences{
+  padding:7% 15% ;
+  color: #66BFBF;
+
+
+
+}
+#footer{
+  padding: 4% 10%;
+  text-align: center;
+  color: #66BFBF;
+}
+.footer-elements{
+  margin-bottom: 0;
+}
+  .footer-col{padding-bottom: 2rem;
+
+}
+@media (max-width:991px) {
+
+  .nav-item{
+    padding: 0 0;
+  }
+  .navbar-nav{
+    padding: 0 20px;
+  }
+
+  .heading-name{
+    text-align: center;
+  }
+  #title{
+    padding: 7% 15%;
+  }
+
+}
