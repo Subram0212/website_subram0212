@@ -3,7 +3,10 @@ html{
   }
 .subimage{
   height: 300px;
+  display: block;
+  margin: auto;
   border-radius: 100%;
+  max-width: 100%;
   position: relative;
   z-index: -1;
 
@@ -12,7 +15,7 @@ html{
 }
 .imagebg{
     text-align: center;
-    padding-bottom: 20px;
+    padding:0 0 20px 0;
 
 
 }
@@ -88,7 +91,7 @@ body{
 }
 
 #title{
-  padding: 7% 15% 7% 8%;
+  padding: 7% 8% 7% 8%;
   margin-top: 3rem;
     color: #66BFBF;
 
